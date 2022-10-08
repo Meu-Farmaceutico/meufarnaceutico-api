@@ -1,7 +1,7 @@
-using Customers.Api.Endpoints;
+using MeufarmaceuticoApi.Endpoints;
 using FastEndpoints;
 
-namespace Customers.Api.Summaries;
+namespace MeufarmaceuticoApi.Summaries;
 
 public class DeleteCustomerSummary : Summary<DeleteCustomerEndpoint>
 {

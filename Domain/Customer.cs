@@ -1,6 +1,6 @@
-﻿using Customers.Api.Domain.Common;
+﻿using MeufarmaceuticoApi.Domain.Common;
 
-namespace Customers.Api.Domain;
+namespace MeufarmaceuticoApi.Domain;
 
 public class Customer
 {

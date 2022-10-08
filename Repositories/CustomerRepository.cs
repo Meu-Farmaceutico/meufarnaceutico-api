@@ -3,9 +3,9 @@ using System.Text.Json;
 using Amazon.DynamoDBv2;
 using Amazon.DynamoDBv2.DocumentModel;
 using Amazon.DynamoDBv2.Model;
-using Customers.Api.Contracts.Data;
+using MeufarmaceuticoApi.Contracts.Data;
 
-namespace Customers.Api.Repositories;
+namespace MeufarmaceuticoApi.Repositories;
 
 public class CustomerRepository : ICustomerRepository
 {

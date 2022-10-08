@@ -1,6 +1,6 @@
-﻿using Customers.Api.Domain;
+﻿using MeufarmaceuticoApi.Domain;
 
-namespace Customers.Api.Services;
+namespace MeufarmaceuticoApi.Services;
 
 public interface ICustomerService
 {

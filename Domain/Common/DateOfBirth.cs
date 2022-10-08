@@ -2,7 +2,7 @@
 using FluentValidation.Results;
 using ValueOf;
 
-namespace Customers.Api.Domain.Common;
+namespace MeufarmaceuticoApi.Domain.Common;
 
 public class DateOfBirth : ValueOf<DateOnly, DateOfBirth>
 {

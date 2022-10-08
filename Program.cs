@@ -1,9 +1,9 @@
 using Amazon;
 using Amazon.DynamoDBv2;
-using Customers.Api.Contracts.Responses;
-using Customers.Api.Repositories;
-using Customers.Api.Services;
-using Customers.Api.Validation;
+using MeufarmaceuticoApi.Contracts.Responses;
+using MeufarmaceuticoApi.Repositories;
+using MeufarmaceuticoApi.Services;
+using MeufarmaceuticoApi.Validation;
 using FastEndpoints;
 using FastEndpoints.Swagger;
 

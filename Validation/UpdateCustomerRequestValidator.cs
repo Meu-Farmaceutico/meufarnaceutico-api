@@ -1,7 +1,7 @@
-﻿using Customers.Api.Contracts.Requests;
+﻿using MeufarmaceuticoApi.Contracts.Requests;
 using FluentValidation;
 
-namespace Customers.Api.Validation;
+namespace MeufarmaceuticoApi.Validation;
 
 public class UpdateCustomerRequestValidator : AbstractValidator<UpdateCustomerRequest>
 {

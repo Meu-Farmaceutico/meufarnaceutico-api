@@ -11,6 +11,6 @@
   "function-runtime": "dotnet6",
   "function-memory-size": 256,
   "function-timeout": 30,
-  "function-handler": "Customers.Api",
+  "function-handler": "MeufarmaceuticoApi",
   "function-url-enable": true
 }

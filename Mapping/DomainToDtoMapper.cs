@@ -1,7 +1,7 @@
-﻿using Customers.Api.Contracts.Data;
-using Customers.Api.Domain;
+﻿using MeufarmaceuticoApi.Contracts.Data;
+using MeufarmaceuticoApi.Domain;
 
-namespace Customers.Api.Mapping;
+namespace MeufarmaceuticoApi.Mapping;
 
 public static class DomainToDtoMapper
 {

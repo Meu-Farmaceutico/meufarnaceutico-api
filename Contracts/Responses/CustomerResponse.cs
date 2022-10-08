@@ -1,4 +1,4 @@
-﻿namespace Customers.Api.Contracts.Responses;
+﻿namespace MeufarmaceuticoApi.Contracts.Responses;
 
 public class CustomerResponse
 {

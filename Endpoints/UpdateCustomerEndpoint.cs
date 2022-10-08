@@ -1,11 +1,11 @@
-﻿using Customers.Api.Contracts.Requests;
-using Customers.Api.Contracts.Responses;
-using Customers.Api.Mapping;
-using Customers.Api.Services;
+﻿using MeufarmaceuticoApi.Contracts.Requests;
+using MeufarmaceuticoApi.Contracts.Responses;
+using MeufarmaceuticoApi.Mapping;
+using MeufarmaceuticoApi.Services;
 using FastEndpoints;
 using Microsoft.AspNetCore.Authorization;
 
-namespace Customers.Api.Endpoints;
+namespace MeufarmaceuticoApi.Endpoints;
 
 [HttpPut("customers/{id:guid}"), AllowAnonymous]
 public class UpdateCustomerEndpoint : Endpoint<UpdateCustomerRequest, CustomerResponse>

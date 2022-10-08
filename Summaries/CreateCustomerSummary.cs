@@ -1,8 +1,8 @@
-using Customers.Api.Contracts.Responses;
-using Customers.Api.Endpoints;
+using MeufarmaceuticoApi.Contracts.Responses;
+using MeufarmaceuticoApi.Endpoints;
 using FastEndpoints;
 
-namespace Customers.Api.Summaries;
+namespace MeufarmaceuticoApi.Summaries;
 
 public class CreateCustomerSummary : Summary<CreateCustomerEndpoint>
 {

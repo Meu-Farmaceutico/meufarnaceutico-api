@@ -1,10 +1,10 @@
-﻿using Customers.Api.Domain;
-using Customers.Api.Mapping;
-using Customers.Api.Repositories;
+﻿using MeufarmaceuticoApi.Domain;
+using MeufarmaceuticoApi.Mapping;
+using MeufarmaceuticoApi.Repositories;
 using FluentValidation;
 using FluentValidation.Results;
 
-namespace Customers.Api.Services;
+namespace MeufarmaceuticoApi.Services;
 
 public class CustomerService : ICustomerService
 {

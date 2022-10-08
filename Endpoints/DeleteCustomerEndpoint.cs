@@ -1,9 +1,9 @@
-﻿using Customers.Api.Contracts.Requests;
-using Customers.Api.Services;
+﻿using MeufarmaceuticoApi.Contracts.Requests;
+using MeufarmaceuticoApi.Services;
 using FastEndpoints;
 using Microsoft.AspNetCore.Authorization;
 
-namespace Customers.Api.Endpoints;
+namespace MeufarmaceuticoApi.Endpoints;
 
 [HttpDelete("customers/{id:guid}"), AllowAnonymous]
 public class DeleteCustomerEndpoint : Endpoint<DeleteCustomerRequest>

@@ -1,7 +1,7 @@
-﻿using Customers.Api.Contracts.Responses;
+﻿using MeufarmaceuticoApi.Contracts.Responses;
 using FluentValidation;
 
-namespace Customers.Api.Validation;
+namespace MeufarmaceuticoApi.Validation;
 
 public class ValidationExceptionMiddleware
 {

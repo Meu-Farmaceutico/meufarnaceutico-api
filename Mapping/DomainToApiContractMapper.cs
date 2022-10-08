@@ -1,7 +1,7 @@
-﻿using Customers.Api.Contracts.Responses;
-using Customers.Api.Domain;
+﻿using MeufarmaceuticoApi.Contracts.Responses;
+using MeufarmaceuticoApi.Domain;
 
-namespace Customers.Api.Mapping;
+namespace MeufarmaceuticoApi.Mapping;
 
 public static class DomainToApiContractMapper
 {

@@ -3,7 +3,7 @@ using FluentValidation;
 using FluentValidation.Results;
 using ValueOf;
 
-namespace Customers.Api.Domain.Common;
+namespace MeufarmaceuticoApi.Domain.Common;
 
 public class FullName : ValueOf<string, FullName>
 {

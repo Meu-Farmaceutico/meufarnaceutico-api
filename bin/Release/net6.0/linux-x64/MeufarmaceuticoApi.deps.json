@@ -1,0 +1,762 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0/linux-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {},
+    ".NETCoreApp,Version=v6.0/linux-x64": {
+      "MeufarmaceuticoApi/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.3.29",
+          "Amazon.Lambda.AspNetCoreServer.Hosting": "1.2.0",
+          "FastEndpoints": "4.1.0-beta8",
+          "FastEndpoints.Swagger": "4.1.0-beta8",
+          "FirebaseAdmin": "2.3.0",
+          "ValueOf": "2.0.31"
+        },
+        "runtime": {
+          "MeufarmaceuticoApi.dll": {}
+        }
+      },
+      "Amazon.Lambda.APIGatewayEvents/2.4.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.APIGatewayEvents.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.ApplicationLoadBalancerEvents/2.1.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.ApplicationLoadBalancerEvents.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.AspNetCoreServer/7.1.0": {
+        "dependencies": {
+          "Amazon.Lambda.APIGatewayEvents": "2.4.1",
+          "Amazon.Lambda.ApplicationLoadBalancerEvents": "2.1.0",
+          "Amazon.Lambda.Core": "2.1.0",
+          "Amazon.Lambda.Logging.AspNetCore": "3.1.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.2.0"
+        },
+        "runtime": {
+          "lib/net6.0/Amazon.Lambda.AspNetCoreServer.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "Amazon.Lambda.AspNetCoreServer.Hosting/1.2.0": {
+        "dependencies": {
+          "Amazon.Lambda.APIGatewayEvents": "2.4.1",
+          "Amazon.Lambda.AspNetCoreServer": "7.1.0",
+          "Amazon.Lambda.Core": "2.1.0",
+          "Amazon.Lambda.RuntimeSupport": "1.8.0"
+        },
+        "runtime": {
+          "lib/net6.0/Amazon.Lambda.AspNetCoreServer.Hosting.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Core/2.1.0": {
+        "runtime": {
+          "lib/net6.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Logging.AspNetCore/3.1.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.1.0",
+          "Microsoft.Extensions.Logging": "2.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Logging.AspNetCore.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.RuntimeSupport/1.8.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/Amazon.Lambda.RuntimeSupport.dll": {
+            "assemblyVersion": "1.8.0.0",
+            "fileVersion": "1.8.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.2.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.10.14": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.10.14"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.3.29": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.10.14"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.3.29"
+          }
+        }
+      },
+      "FastEndpoints/4.1.0-beta8": {
+        "dependencies": {
+          "FluentValidation": "10.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/FastEndpoints.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
+          }
+        }
+      },
+      "FastEndpoints.Swagger/4.1.0-beta8": {
+        "dependencies": {
+          "FastEndpoints": "4.1.0-beta8",
+          "NSwag.AspNetCore": "13.15.10"
+        },
+        "runtime": {
+          "lib/net6.0/FastEndpoints.Swagger.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
+          }
+        }
+      },
+      "FirebaseAdmin/2.3.0": {
+        "dependencies": {
+          "Google.Api.Gax.Rest": "3.2.0",
+          "Google.Apis.Auth": "1.49.0",
+          "System.Collections.Immutable": "1.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FirebaseAdmin.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "FluentValidation/10.4.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.4.0.0"
+          }
+        }
+      },
+      "Google.Api.Gax/3.2.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.Gax.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "Google.Api.Gax.Rest/3.2.0": {
+        "dependencies": {
+          "Google.Api.Gax": "3.2.0",
+          "Google.Apis.Auth": "1.49.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.Gax.Rest.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "Google.Apis/1.49.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.49.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "assemblyVersion": "1.49.0.0",
+            "fileVersion": "1.49.0.0"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.49.0": {
+        "dependencies": {
+          "Google.Apis": "1.49.0",
+          "Google.Apis.Core": "1.49.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {
+            "assemblyVersion": "1.49.0.0",
+            "fileVersion": "1.49.0.0"
+          },
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.49.0.0",
+            "fileVersion": "1.49.0.0"
+          }
+        }
+      },
+      "Google.Apis.Core/1.49.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.49.0.0",
+            "fileVersion": "1.49.0.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.4.1": {},
+      "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
+      "Microsoft.Extensions.Configuration/2.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "2.1.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/2.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/2.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.1.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Logging/2.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "2.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.1.0": {},
+      "Microsoft.Extensions.Options/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "Namotion.Reflection/2.0.10": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Namotion.Reflection.dll": {
+            "assemblyVersion": "2.0.10.0",
+            "fileVersion": "2.0.10.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "NJsonSchema/10.6.10": {
+        "dependencies": {
+          "Namotion.Reflection": "2.0.10",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NJsonSchema.dll": {
+            "assemblyVersion": "10.6.10.0",
+            "fileVersion": "10.6.10.0"
+          }
+        }
+      },
+      "NJsonSchema.Yaml/10.6.10": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.1",
+          "NJsonSchema": "10.6.10",
+          "YamlDotNet": "11.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NJsonSchema.Yaml.dll": {
+            "assemblyVersion": "10.6.10.0",
+            "fileVersion": "10.6.10.0"
+          }
+        }
+      },
+      "NSwag.Annotations/13.15.10": {
+        "runtime": {
+          "lib/netstandard2.0/NSwag.Annotations.dll": {
+            "assemblyVersion": "13.15.10.0",
+            "fileVersion": "13.15.10.0"
+          }
+        }
+      },
+      "NSwag.AspNetCore/13.15.10": {
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "NSwag.Annotations": "13.15.10",
+          "NSwag.Core": "13.15.10",
+          "NSwag.Core.Yaml": "13.15.10",
+          "NSwag.Generation": "13.15.10",
+          "NSwag.Generation.AspNetCore": "13.15.10"
+        },
+        "runtime": {
+          "lib/net6.0/NSwag.AspNetCore.dll": {
+            "assemblyVersion": "13.15.10.0",
+            "fileVersion": "13.15.10.0"
+          }
+        }
+      },
+      "NSwag.Core/13.15.10": {
+        "dependencies": {
+          "NJsonSchema": "10.6.10",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NSwag.Core.dll": {
+            "assemblyVersion": "13.15.10.0",
+            "fileVersion": "13.15.10.0"
+          }
+        }
+      },
+      "NSwag.Core.Yaml/13.15.10": {
+        "dependencies": {
+          "NJsonSchema.Yaml": "10.6.10",
+          "NSwag.Core": "13.15.10",
+          "YamlDotNet": "11.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NSwag.Core.Yaml.dll": {
+            "assemblyVersion": "13.15.10.0",
+            "fileVersion": "13.15.10.0"
+          }
+        }
+      },
+      "NSwag.Generation/13.15.10": {
+        "dependencies": {
+          "NJsonSchema": "10.6.10",
+          "NSwag.Core": "13.15.10",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NSwag.Generation.dll": {
+            "assemblyVersion": "13.15.10.0",
+            "fileVersion": "13.15.10.0"
+          }
+        }
+      },
+      "NSwag.Generation.AspNetCore/13.15.10": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "NSwag.Generation": "13.15.10"
+        },
+        "runtime": {
+          "lib/net6.0/NSwag.Generation.AspNetCore.dll": {
+            "assemblyVersion": "13.15.10.0",
+            "fileVersion": "13.15.10.0"
+          }
+        }
+      },
+      "System.Collections.Immutable/1.7.1": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "ValueOf/2.0.31": {
+        "runtime": {
+          "lib/netstandard2.0/ValueOf.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "YamlDotNet/11.2.1": {
+        "runtime": {
+          "lib/netstandard2.1/YamlDotNet.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.2.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MeufarmaceuticoApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.APIGatewayEvents/2.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-prPB5BiVV21Cd1FxJwsko8T2/1wO/2ycoMSUKFUl3pE7q6ZOQzwbUqrOMKUpL/Qv1OxxY8E37XKcl7PWNwc8fg==",
+      "path": "amazon.lambda.apigatewayevents/2.4.1",
+      "hashPath": "amazon.lambda.apigatewayevents.2.4.1.nupkg.sha512"
+    },
+    "Amazon.Lambda.ApplicationLoadBalancerEvents/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lxOKr4kuooqQV84YsNjgrJp7c4lcYDe+RPIMcdvpLEM6XlLzar38OoG4DeCdzsgnxy0aFQ25nzaDUnrqjIFC/A==",
+      "path": "amazon.lambda.applicationloadbalancerevents/2.1.0",
+      "hashPath": "amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.AspNetCoreServer/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LkqmO93jiAYTI5y5uBWiKX0kSjQRPMG/95MydX/L+8d+3xVncpygTa4oYtVvVkIZ3wS6895CB+utT7cbPSL3kw==",
+      "path": "amazon.lambda.aspnetcoreserver/7.1.0",
+      "hashPath": "amazon.lambda.aspnetcoreserver.7.1.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.AspNetCoreServer.Hosting/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-89I5mNmymqiMX7DlCjvaOivUK/Xf1K0lfMSzN+63KjFYrDjhiq3UqCb5qpBZTQJ8NWPSq8rP+kYkm99dOCCX4Q==",
+      "path": "amazon.lambda.aspnetcoreserver.hosting/1.2.0",
+      "hashPath": "amazon.lambda.aspnetcoreserver.hosting.1.2.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Core/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ok06UhfBZw6j6+PhiJR9C0EOMuJvnq8rMCHVkaFmPFrlI/q447ukwGZQKaAKqodV+MNTfpb/iPxjgUPVbSlVVw==",
+      "path": "amazon.lambda.core/2.1.0",
+      "hashPath": "amazon.lambda.core.2.1.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Logging.AspNetCore/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4SD+db3WUBMTl+0p/4C2/zalkG2gMFc9PYwLv4UGPkq6WUlek9hmom0igKkcGY5/1uprEdG/zQ5abKUfs6z0dQ==",
+      "path": "amazon.lambda.logging.aspnetcore/3.1.0",
+      "hashPath": "amazon.lambda.logging.aspnetcore.3.1.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.RuntimeSupport/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E3u5Qcdvuerqd+DQxDs0E8YdezZvk1622ym9f/EEh3KylPgE/1ZytYAkJACVJwSAE8A3NpoO3q4VblIjilbO0g==",
+      "path": "amazon.lambda.runtimesupport/1.8.0",
+      "hashPath": "amazon.lambda.runtimesupport.1.8.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ENIKiMBVUegIbwHwg4P0XjJKXazTlCS05bqRKrn9BTUWDZQjPp5RaFs1h2+22H4SiqWosNxKrNCeiXyHJnwOHw==",
+      "path": "amazon.lambda.serialization.systemtextjson/2.2.0",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.2.2.0.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.10.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rQMKs/M6yea0NAZQJvOgRv7ONLzVpGZ9l2V9Q69OB84Nifm31DG3rOKuhzA8GRq1Z4inNeLuKkvQ5ztY/AmpLQ==",
+      "path": "awssdk.core/3.7.10.14",
+      "hashPath": "awssdk.core.3.7.10.14.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.3.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-THRGmnWN0Zc+/VUPPNu64uyHTTme57VoyqhHzyPEZJxUPs1Q6ZA2EJtDaZxGvzumobcjfOvdBuX2G1ycDTLY0g==",
+      "path": "awssdk.dynamodbv2/3.7.3.29",
+      "hashPath": "awssdk.dynamodbv2.3.7.3.29.nupkg.sha512"
+    },
+    "FastEndpoints/4.1.0-beta8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WXZgKrcyOK1LxePfZPCCZKN8rXNNVJetSV+Hbi0lTZIudtsYICfT+HyqClPyFUUEGFBrSs0xi353Dh6V8u7bsg==",
+      "path": "fastendpoints/4.1.0-beta8",
+      "hashPath": "fastendpoints.4.1.0-beta8.nupkg.sha512"
+    },
+    "FastEndpoints.Swagger/4.1.0-beta8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bWPBzFtAN6J6rbdrTNTFYOmXOftoPShYDQD2Hr30ewfa+FZYpwWkh9x0PGBbEFcWzhtYIHNuEFVYbFDhT7MNMQ==",
+      "path": "fastendpoints.swagger/4.1.0-beta8",
+      "hashPath": "fastendpoints.swagger.4.1.0-beta8.nupkg.sha512"
+    },
+    "FirebaseAdmin/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ror9V68bFWdr3VXoCPQrAAJ1ZA8dyLzIHJvy53BmoD83Ze9VuWC9hPBicPqqOANP3VTMWnylC7xci59UEMuU4A==",
+      "path": "firebaseadmin/2.3.0",
+      "hashPath": "firebaseadmin.2.3.0.nupkg.sha512"
+    },
+    "FluentValidation/10.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rVI1b5L3pq3layrRKIo3N7AT3PWey8ocPZhf6zeHYf6LBBvnP1KzW3bm7KmeazOWW8m1KXMD+shfviIcKSgQ0g==",
+      "path": "fluentvalidation/10.4.0",
+      "hashPath": "fluentvalidation.10.4.0.nupkg.sha512"
+    },
+    "Google.Api.Gax/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0OjahFAHTOoprSgvJiQ6/fIQLrUYU4QIFgkuJ51/lcmhZbuXxB3ycPk3JTVEvx6A5yQBL14wgmHgwXLcEsnu3Q==",
+      "path": "google.api.gax/3.2.0",
+      "hashPath": "google.api.gax.3.2.0.nupkg.sha512"
+    },
+    "Google.Api.Gax.Rest/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YY4mD0nGxTx1uez7Perm+zAd3FH50dd3+7HTYsRFCywDEtj3RkrMjcAmw6mNpKkw2sRICu7aYNy1mgMjd3nVbw==",
+      "path": "google.api.gax.rest/3.2.0",
+      "hashPath": "google.api.gax.rest.3.2.0.nupkg.sha512"
+    },
+    "Google.Apis/1.49.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fmXQQTxZFOBlnvokvdQMzq0Lt+g2QzpZ4H6U8lMMFHgAR8ZqxQnPN5yHDpoHf7a++hJHb5W3pALxauGsq+afKQ==",
+      "path": "google.apis/1.49.0",
+      "hashPath": "google.apis.1.49.0.nupkg.sha512"
+    },
+    "Google.Apis.Auth/1.49.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3V9ohvixQtjaEvk7T9Ac7E/KvwEPa7eL4aMNreJDI0CEPzCdQdk2zCvaJPRrNIjhe+UuBeOeom1oAOMFB74JHg==",
+      "path": "google.apis.auth/1.49.0",
+      "hashPath": "google.apis.auth.1.49.0.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.49.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9DgGdtyzgrCfHWwc/HiDXDbykNMeKQozbEHYEUEcezRuH+YR3fvq7YGVBDmUM8g6qEL3kDk6h5EU4h0IJwue1w==",
+      "path": "google.apis.core/1.49.0",
+      "hashPath": "google.apis.core.1.49.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
+      "path": "microsoft.bcl.asyncinterfaces/1.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A5hI3gk6WpcBI0QGZY6/d5CCaYUxJgi7iENn1uYEng+Olo8RfI5ReGVkjXjeu3VR3srLvVYREATXa2M0X7FYJA==",
+      "path": "microsoft.csharp/4.4.1",
+      "hashPath": "microsoft.csharp.4.4.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
+      "path": "microsoft.extensions.apidescription.server/3.0.0",
+      "hashPath": "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SS8ce1GYQTkZoOq5bskqQ+m7xiXQjnKRiGfVNZkkX2SX0HpXNRsKnSUaywRRuCje3v2KT9xeacsM3J9/G2exsQ==",
+      "path": "microsoft.extensions.configuration/2.1.0",
+      "hashPath": "microsoft.extensions.configuration.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lMmUjAKvY9r6QmxCS15iSb6ulhwnh0zp44NtnVJ+HIDLFmu4iej41U+dU58On8NRezmlgRXiQtLnBeZSzYNKQg==",
+      "path": "microsoft.extensions.configuration.abstractions/2.1.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fls0O54Ielz1DiVYpcmiUpeizN1iKGGI5yAWAoShfmUvMcQ8jAGOK1a+DaflHA5hN9IOKvmSos0yewDYAIY0ZA==",
+      "path": "microsoft.extensions.configuration.binder/2.1.0",
+      "hashPath": "microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0pd4/fho0gC12rQswaGQxbU34jOS1TPS8lZPpkFCH68ppQjHNHYle9iRuHeev1LhrJ94YPvzcRd8UmIuFk23Qw==",
+      "path": "microsoft.extensions.fileproviders.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9uQbDTqX1MidhoZFUSK1JItt74IapEadFDOIWAlBIKxr3O/ZEWLWkLYGlgUeP1Dkyog6/CB7h1EAU3xADYZ/lA==",
+      "path": "microsoft.extensions.fileproviders.embedded/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kuZbZMMHb7ibzhLdn9/R1+PAAFKntlF10tOw4loB8VuQkHvSrBE6IzW1rhBLsEdmLXOgi2zFbwcXFrxzSM6ybA==",
+      "path": "microsoft.extensions.logging/2.1.0",
+      "hashPath": "microsoft.extensions.logging.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GfD2VtvN9z1W+m6pZZe98yh9VWTSdNY2dZSxtca9uFIY6aBI6twvskMvLO/ktClBOTQmAov/7Em+IWFlHepa0A==",
+      "path": "microsoft.extensions.logging.abstractions/2.1.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "path": "microsoft.extensions.options/6.0.0",
+      "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+    },
+    "Namotion.Reflection/2.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KHndyscosup/AnzMQLzW0g6+z0h2NCmTyW9hnEL/T/ZkiUIQWBA1RadYgUT+dXuMORmQI/BXm+DXYySWwq8h0Q==",
+      "path": "namotion.reflection/2.0.10",
+      "hashPath": "namotion.reflection.2.0.10.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "NJsonSchema/10.6.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-njAKZxQOycYTU3fn5GjJxJjOt5dSiDvj3GrwP7Y0M/+WCGoD/q5HRC3U2tcVU1aIKGzDpZ8f6kM5BO5DVsXoxw==",
+      "path": "njsonschema/10.6.10",
+      "hashPath": "njsonschema.10.6.10.nupkg.sha512"
+    },
+    "NJsonSchema.Yaml/10.6.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x9FNbFQK7+cQU4y1ALJ6djHZp6ZtWk/CxhGYxn1IfOEKZNCMRPd+ldtbVNRC/2EC6gR/M+f8bS+Yq4tfUY10pw==",
+      "path": "njsonschema.yaml/10.6.10",
+      "hashPath": "njsonschema.yaml.10.6.10.nupkg.sha512"
+    },
+    "NSwag.Annotations/13.15.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TMUH1dCQWCxcv8ep4jZo8TKTt6rpjwKFJKLeqF1p7wqKmeiquhYgxgoQQWYP/kWL8ixwi3Xa00IqZwdqeOMhoA==",
+      "path": "nswag.annotations/13.15.10",
+      "hashPath": "nswag.annotations.13.15.10.nupkg.sha512"
+    },
+    "NSwag.AspNetCore/13.15.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-43719YBhxOpRfuSQIUdhtLL85AH3AmpY3/ZueEW1LcHSkqu89mheKri83/nAQ+UZz5qx/6xDtPvRMlju2kbZRA==",
+      "path": "nswag.aspnetcore/13.15.10",
+      "hashPath": "nswag.aspnetcore.13.15.10.nupkg.sha512"
+    },
+    "NSwag.Core/13.15.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QuYuOzYOLkhQhnTJ5Au3vvC0p0y7Dg3jFeHKZXn12JJNNrUtntS5GjUp0v/s4MihAcAyVFSXmCbc+bivARLN6A==",
+      "path": "nswag.core/13.15.10",
+      "hashPath": "nswag.core.13.15.10.nupkg.sha512"
+    },
+    "NSwag.Core.Yaml/13.15.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/CrSODS6GGF3RxdFmlUq3F4yP0RTPE3ubbm3udtzsEIhza+IyYN2jeCKQMAW4tEuFrLohKprdzgouabxe0fN2w==",
+      "path": "nswag.core.yaml/13.15.10",
+      "hashPath": "nswag.core.yaml.13.15.10.nupkg.sha512"
+    },
+    "NSwag.Generation/13.15.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXOlVwPskm2ay0iF32sCy53f3sYulHvrIZK5xXJVi6AoVRY9Z9ueday2cIoVzmETuIDGQMl1kGEXZ/fs/x/lbg==",
+      "path": "nswag.generation/13.15.10",
+      "hashPath": "nswag.generation.13.15.10.nupkg.sha512"
+    },
+    "NSwag.Generation.AspNetCore/13.15.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bcEmt2QF7AkPJS6XaQQ4PDFRHB4SffMtx2VsnyN0ef8mcom8cyJGA+E+syWo4+3BQOe+pS9ANaFy/nJdhZsUgw==",
+      "path": "nswag.generation.aspnetcore/13.15.10",
+      "hashPath": "nswag.generation.aspnetcore.13.15.10.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B43Zsz5EfMwyEbnObwRxW5u85fzJma3lrDeGcSAV1qkhSRTNY5uXAByTn9h9ddNdhM+4/YoLc/CI43umjwIl9Q==",
+      "path": "system.collections.immutable/1.7.1",
+      "hashPath": "system.collections.immutable.1.7.1.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "ValueOf/2.0.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nEyKZGR8D1crnv2pcOCMhu4x0etnmjviJdP9OU33IfcRAfYibNYoGFMUQzeEOJT7yrQ87t/y0VCsNiTRb6l2LQ==",
+      "path": "valueof/2.0.31",
+      "hashPath": "valueof.2.0.31.nupkg.sha512"
+    },
+    "YamlDotNet/11.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tBt8K+korVfrjH9wyDEhiLKxbs8qoLCLIFwvYgkSUuMC9//w3z0cFQ8LQAI/5MCKq+BMil0cfRTRvPeE7eXhQw==",
+      "path": "yamldotnet/11.2.1",
+      "hashPath": "yamldotnet.11.2.1.nupkg.sha512"
+    }
+  }
+}

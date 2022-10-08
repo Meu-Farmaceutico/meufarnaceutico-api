@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Customers.Api.Contracts.Data;
+namespace MeufarmaceuticoApi.Contracts.Data;
 
 public class CustomerDto
 {

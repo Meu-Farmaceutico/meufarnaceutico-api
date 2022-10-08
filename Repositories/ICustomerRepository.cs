@@ -1,6 +1,6 @@
-﻿using Customers.Api.Contracts.Data;
+﻿using MeufarmaceuticoApi.Contracts.Data;
 
-namespace Customers.Api.Repositories;
+namespace MeufarmaceuticoApi.Repositories;
 
 public interface ICustomerRepository
 {
