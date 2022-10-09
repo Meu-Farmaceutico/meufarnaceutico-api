@@ -2,10 +2,9 @@ using Amazon;
 using Amazon.DynamoDBv2;
 using MeufarmaceuticoApi.Contracts.Responses;
 using MeufarmaceuticoApi.Repositories;
-using MeufarmaceuticoApi.Services;
-using MeufarmaceuticoApi.Validation;
 using FastEndpoints;
 using FastEndpoints.Swagger;
+using 
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
@@ -15,11 +14,7 @@ builder.Services.AddAWSLambdaHosting(LambdaEventSource.HttpApi);
 builder.Services.AddFastEndpoints();
 builder.Services.AddSwaggerDoc();
 
-builder.Services.AddSingleton<IAmazonDynamoDB>(_ => new AmazonDynamoDBClient(RegionEndpoint.EUWest2));
-builder.Services.AddSingleton<ICustomerRepository>(provider =>
-    new CustomerRepository(provider.GetRequiredService<IAmazonDynamoDB>(),
-        config.GetValue<string>("Database:TableName")));
-builder.Services.AddSingleton<ICustomerService, CustomerService>();
+builder.services.AddDbContext<DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("ServerConnection")));
 
 var app = builder.Build();
 

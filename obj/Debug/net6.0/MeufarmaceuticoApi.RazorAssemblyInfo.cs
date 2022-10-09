@@ -10,10 +10,10 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("FastEndpoints")]
-[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("FastEndpoints.Swagger")]
-[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("NSwag.AspNetCore")]
-[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("NSwag.Generation.AspNetCore")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.RelatedAssemblyAttribute("MeufarmaceuticoApi.Views")]
+[assembly: Microsoft.AspNetCore.Razor.Hosting.RazorLanguageVersionAttribute("2.1")]
+[assembly: Microsoft.AspNetCore.Razor.Hosting.RazorConfigurationNameAttribute("MVC-2.1")]
+[assembly: Microsoft.AspNetCore.Razor.Hosting.RazorExtensionAssemblyNameAttribute("MVC-2.1", "Microsoft.AspNetCore.Mvc.Razor.Extensions")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

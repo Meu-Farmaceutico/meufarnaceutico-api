@@ -56,3 +56,15 @@
 /app/Customers.Api/obj/Debug/net6.0/MeufarmaceuticoApi.pdb
 /app/Customers.Api/obj/Debug/net6.0/MeufarmaceuticoApi.genruntimeconfig.cache
 /app/Customers.Api/obj/Debug/net6.0/ref/MeufarmaceuticoApi.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.csproj.AssemblyReference.cache
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.AssemblyInfoInputs.cache
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.AssemblyInfo.cs
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\refint\MeufarmaceuticoApi.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.pdb
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.RazorAssemblyInfo.cache
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.RazorAssemblyInfo.cs
