@@ -11,7 +11,7 @@ namespace MeufarmaceuticoApi.Data
     {
         DbSet<User> Users { get; set; }
 
-        DbSet<Medication> Medication { get; set; }
+        DbSet<Medication> Medications { get; set; }
 
         DbSet<Treatment> Treatments { get; set; }
 

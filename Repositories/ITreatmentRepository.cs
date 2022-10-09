@@ -5,13 +5,13 @@ namespace MeufarmaceuticoApi.Repositories;
 
 public interface ITreatmentRepository
 {
-    public bool CreateTreatment(Treatment treatment);
+    public Task<bool> CreateTreatment(Treatment treatment);
 
-    public Treatment GetTreatmentById(long id);
+    public Task<Treatment>GetTreatmentById(long id);
 
-    Enumerable<Treatment> GetTreatmentList();
+    public Task<Enumerable<Treatment>> GetTreatmentList();
 
-    void UpdateTreatment(Treatment treatment);
+    public Task<bool> UpdateTreatment(Treatment treatment);
 
-    void DeleteTreatment(long id);
+    public Task<bool> DeleteTreatment(long id);
 }

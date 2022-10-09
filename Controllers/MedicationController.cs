@@ -1,24 +1,24 @@
-﻿using MeufarmaceuticoApi.Contracts.Requests;
-using MeufarmaceuticoApi.Contracts.Responses;
-using Microsoft.AspNetCore.Mvc;
-using MeufarmaceuticoApi.Repositories;
-using FastEndpoints;
+﻿// using MeufarmaceuticoApi.Contracts.Requests;
+// using MeufarmaceuticoApi.Contracts.Responses;
+// using Microsoft.AspNetCore.Mvc;
+// using MeufarmaceuticoApi.Repositories;
+// using FastEndpoints;
 
-namespace MeufarmaceuticoApi.ControlLers;
+// namespace MeufarmaceuticoApi.ControlLers;
 
-[ApiController]
-[Route("{controller}/{id}")]
-public class MedicationController : ControllerBase
-{
-    private readonly IMedicationRepository _MedicationRepository;
+// [ApiController]
+// [Route("{controller}/{id}")]
+// public class MedicationController : ControllerBase
+// {
+//     private readonly IMedicationRepository _MedicationRepository;
 
-    public MedicationController(IMedicationRepository medicationRepository)
-    {
-        _MedicationRepository = medicationRepository;
-    }
+//     public MedicationController(IMedicationRepository medicationRepository)
+//     {
+//         _MedicationRepository = medicationRepository;
+//     }
 
-    public override async Task HandleAsync(UpdateCustomerRequest req, CancellationToken ct)
-    {
-    
-    }
-}
+//     public Medication MedicatioById(long id)
+//     {
+        
+//     }
+// }

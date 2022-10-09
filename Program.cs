@@ -4,13 +4,18 @@ using MeufarmaceuticoApi.Contracts.Responses;
 using MeufarmaceuticoApi.Repositories;
 using FastEndpoints;
 using FastEndpoints.Swagger;
-using 
+using MeufarmaceuticoApi.Domain.Common;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
 
 builder.Services.AddAWSLambdaHosting(LambdaEventSource.HttpApi);
 
+builder.Services.AddScoped<IMedicationRepository, MedicationRepository>();
+builder.Services.AddScoped<ITreatmentRepository, TreatmentRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Serveces.AddScoped<IDapperRepository, DapperRepository>();
+builder.Services.AddScoped<DataContext>();
 builder.Services.AddFastEndpoints();
 builder.Services.AddSwaggerDoc();
 

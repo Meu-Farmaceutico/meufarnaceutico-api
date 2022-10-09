@@ -5,7 +5,7 @@ namespace MeufarmaceuticoApi.Repositories;
 
 public interface IMedicationRepository
 {
-    public Medication GetMedicationById(long id);
+    public Task<Medication> GetMedicationById(long id);
 
-    Enumerable<Medication> GetMedicationAll();
+    Task<Enumerable<Medication>> GetMedicationAll();
 }

@@ -5,5 +5,5 @@ namespace MeufarmaceuticoApi.Repositories;
 
 public interface IUserRepository
 {
-    public User GetUserById(long id); 
+    public Task<User> GetUserById(long id); 
 }

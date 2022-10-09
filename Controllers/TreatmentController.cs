@@ -2,8 +2,7 @@
 using MeufarmaceuticoApi.Contracts.Responses;
 using Microsoft.AspNetCore.Mvc;
 using MeufarmaceuticoApi.Repositories;
-using FastEndpoints;
-
+using MeufarmaceuticoApi.Domain.Common;
 
 namespace MeufarmaceuticoApi.Controllers;
 
@@ -11,7 +10,6 @@ namespace MeufarmaceuticoApi.Controllers;
 [Route("{controller}/{id}")]
 public class TreatmentController : ControllerBase
 {
-
     private readonly ITreatmentRepository _TreatmentRepository;
 
     public TreatmentController(ITreatmentRepository treatmentRepository)
@@ -19,11 +17,17 @@ public class TreatmentController : ControllerBase
         _TreatmentRepository = treatmentRepository;
     }
 
-    public ActionResult HandleAsync()
+    [HttpPost("/CreateTreatment")]
+    public ActionResult CreateTreatment(Treatment treatment)
     {
         try
         {
-            return Ok();
+            if(treatment is null)
+               return BadRequest("Não existe nenhum tratamento");
+
+            var treat = _TreatmentRepository.CreateTreatment();
+
+            return Ok(treat);          
         }
         catch(Exception ex)
         {
