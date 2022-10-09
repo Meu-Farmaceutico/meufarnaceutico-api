@@ -5,7 +5,7 @@ using MeufarmaceuticoApi.Domain.Common;
 namespace MeufarmaceuticoApi.Controllers;
 
 [ApiController]
-[Route("{controller}/{id}")]
+[Route("api/v1/[controller]")]
 public class TreatmentController : ControllerBase
 {
     private readonly ITreatmentRepository _TreatmentRepository;
@@ -15,7 +15,8 @@ public class TreatmentController : ControllerBase
         _TreatmentRepository = treatmentRepository;
     }
 
-    [HttpPost("/CreateTreatment")]
+    [Route("/CreateTreatment")]
+    [HttpPost]
     public ActionResult CreateTreatment(Treatment treatment)
     {
         try
