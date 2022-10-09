@@ -1,6 +1,4 @@
-﻿using MeufarmaceuticoApi.Contracts.Requests;
-using MeufarmaceuticoApi.Contracts.Responses;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using MeufarmaceuticoApi.Repositories;
 using MeufarmaceuticoApi.Domain.Common;
 
@@ -25,7 +23,7 @@ public class TreatmentController : ControllerBase
             if(treatment is null)
                return BadRequest("Não existe nenhum tratamento");
 
-            var treat = _TreatmentRepository.CreateTreatment();
+            var treat = _TreatmentRepository.CreateTreatment(treatment);
 
             return Ok(treat);          
         }

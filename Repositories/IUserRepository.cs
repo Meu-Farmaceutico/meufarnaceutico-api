@@ -1,4 +1,3 @@
-using MeufarmaceuticoApi.Contracts.Data;
 using MeufarmaceuticoApi.Domain;
 
 namespace MeufarmaceuticoApi.Repositories;

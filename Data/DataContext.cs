@@ -1,9 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using MeufarmaceuticoApi.Domain.Common;
 using MeufarmaceuticoApi.Domain;
-
-using System.IO;
 
 namespace MeufarmaceuticoApi.Data
 {

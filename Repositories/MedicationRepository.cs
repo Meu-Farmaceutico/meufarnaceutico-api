@@ -1,13 +1,8 @@
-using System.Net;
-using System.Text.Json;
-using Amazon.DynamoDBv2;
-using Amazon.DynamoDBv2.DocumentModel;
-using Amazon.DynamoDBv2.Model;
-using MeufarmaceuticoApi.Contracts.Data;
 using MeufarmaceuticoApi.Domain.Common;
 using Dapper;
 using System.Data;
-using System.Data.Common;
+using MeufarmaceuticoApi.Data;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MeufarmaceuticoApi.Repositories;
 
@@ -22,20 +17,33 @@ public class MedicationRepository : IMedicationRepository
         _dapperService = dapperRepository;
     }
 
-    public async Task<Medication> GetTreatmentById(long id)
+    public async Task<Medication> GetMedicationById(long id)
     {
         var parms = new DynamicParameters();
         parms.Add("MedicationId", id);
        
-        var medication = Task.FromResult(_dapperService.Get<ActionResult>("[dbo].[GetMedicationId]", parms, commandType: CommandType.StoredProcedure));
+        var medication = _dapperService.Get<Medication>("[dbo].[GetMedicationId]", parms, commandType: CommandType.StoredProcedure);
 
         return medication;
     }
 
-    public async Task<Enumerable<Medication>> GetTreatmentList()
+    public async Task<List<Medication>> GetAllMedication()
     {
-        var medication = Task.FromResult(_dapperService.GetAll<ActionResult>("[dbo].[GetAllMedication]", null, commandType: CommandType.StoredProcedure));
+        var medication = _dapperService.GetAll<List<Medication>>("[dbo].[GetAllMedication]", null, commandType: CommandType.StoredProcedure);
 
-        return medication;
+        List<Medication> list = new List<Medication>();
+
+        foreach (List<Medication> item in medication)
+        {
+            Medication medication1 = new Medication()
+            {
+                NameMedication = item[0].NameMedication,
+                Description = item[0].Description
+            };
+
+            list.Add(medication1);
+        }
+
+        return list;
     }
 }

@@ -1,6 +1,6 @@
 using Dapper;
-using System.Data.Enum;
 using System.Data.Common;
+using System.Data;
 
 namespace MeufarmaceuticoApi.Repositories
 {
@@ -8,11 +8,11 @@ namespace MeufarmaceuticoApi.Repositories
     {
         DbConnection GetConnection();
 
-        T Get<T>(string sp, DynamicParameters parms, CommandType commandType = commandType.StoredProcedure);
+        T Get<T>(string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure);
 
-        Enumerable<T> GetAll<T>(string sp, DynamicParameters parms, CommandType commandType = commandType.StoredProcedure);
+        List<T> GetAll<T>(string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure);
 
-        T Delete<T>(string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure);
+        bool Delete<T>(string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure);
 
         T Update<T>(string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure);
 

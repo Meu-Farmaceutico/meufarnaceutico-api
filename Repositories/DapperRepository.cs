@@ -1,10 +1,7 @@
 using Dapper;
-using Microsoft.Data.SqlClient;
-using Microsoft.Extensions.Configuration;
-using System;
 using System.Data;
 using System.Data.Common;
-using System.Linq;
+using System.Data.SqlClient;
 
 namespace MeufarmaceuticoApi.Repositories
 {
@@ -107,22 +104,37 @@ namespace MeufarmaceuticoApi.Repositories
             return result;
         }
 
-        T Get<T>(string sp, DynamicParameters parms, CommandType commandType = commandType.StoredProcedure)
+        T Get<T>(string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure)
         {   
             using IDbConnection db = GetConnection();
             return db.Query<T>(sp, parms, commandType: commandType).FirstOrDefault();
         }
 
-        Enumerable<T> GetAll<T>(string sp, DynamicParameters parms, CommandType commandType = commandType.StoredProcedure)
+        List<T> GetAll<T>(string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure)
         {
             using IDbConnection db = GetConnection();
             return db.Query<T>(sp, parms, commandType: commandType).ToList();
         }
         
-        T Delete<T>(string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure)
+        void Delete<T>(string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure)
         {
             using IDbConnection db = GetConnection();
-            return db.Query<T>(sp, parms, commandType: commandType);
+            db.Query<T>(sp, parms, commandType: commandType);
+        }
+
+        T IDapperRepository.Get<T>(string sp, DynamicParameters parms, CommandType commandType)
+        {
+            throw new NotImplementedException();
+        }
+
+        List<T> IDapperRepository.GetAll<T>(string sp, DynamicParameters parms, CommandType commandType)
+        {
+            throw new NotImplementedException();
+        }
+
+        bool IDapperRepository.Delete<T>(string sp, DynamicParameters parms, CommandType commandType)
+        {
+            throw new NotImplementedException();
         }
     }
 }

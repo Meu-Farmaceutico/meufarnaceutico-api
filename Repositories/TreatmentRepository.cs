@@ -1,13 +1,7 @@
-﻿using System.Net;
-using System.Text.Json;
-using Amazon.DynamoDBv2;
-using Amazon.DynamoDBv2.DocumentModel;
-using Amazon.DynamoDBv2.Model;
-using MeufarmaceuticoApi.Contracts.Data;
-using MeufarmaceuticoApi.Domain.Common;
+﻿using MeufarmaceuticoApi.Domain.Common;
 using Dapper;
 using System.Data;
-using System.Data.Common;
+using MeufarmaceuticoApi.Data;
 
 namespace MeufarmaceuticoApi.Repositories;
 
@@ -26,13 +20,13 @@ public class TreatmentRepository : ITreatmentRepository
     {
         var parms = new DynamicParameters();
         parms.Add("TreatmentId", treatment.TreatmentId);
-        parms.Add("TreatmentName", treatment.Name);
-        parms.Add("TratmentInitialDate", treatment.InitialDate);
-        parms.Add("TreatmentFinalDate", treatment.FinalDate);
+        parms.Add("TreatmentName", treatment.Name, DbType.String);
+        parms.Add("TratmentInitialDate", treatment.InitialDate, DbType.DateTime);
+        parms.Add("TreatmentFinalDate", treatment.FinalDate, DbType.DateTime);
 
-        var treatment = Task.FromResult(_dapperService.Insert<ActionResult>("[dbo].[InsertCreatment]", parms, commandType: CommandType.StoredProcedure));
+        var treat = _dapperService.Insert<bool>("[dbo].[InsertCreatment]", parms, commandType: CommandType.StoredProcedure);
 
-        return treatment;
+        return treat;
     }
 
     public async Task<Treatment> GetTreatmentById(long id)
@@ -40,29 +34,50 @@ public class TreatmentRepository : ITreatmentRepository
         var parms = new DynamicParameters();
         parms.Add("TreatmentId", id);
        
-        var treatment = Task.FromResult(_dapperService.Get<ActionResult>("[dbo].[GetTreatmentId]", parms, commandType: CommandType.StoredProcedure));
+        var treatment = _dapperService.Get<Treatment>("[dbo].[GetTreatmentId]", parms, commandType: CommandType.StoredProcedure);
 
         return treatment;
     }
 
-    public async Task<Enumerable<Treatment>> GetTreatmentList()
+    public List<Treatment> GetTreatmentList()
     {
-        var treatment = Task.FromResult(_dapperService.GetAll<ActionResult>("[dbo].[GetAllTreatment]", null, commandType: CommandType.StoredProcedure));
+        var treatment = _dapperService.GetAll<List<Treatment>>("[dbo].[GetAllTreatment]", null, commandType: CommandType.StoredProcedure);
 
-        return treatment;
+        List<Treatment> list = new List<Treatment>();
+
+        foreach(List<Treatment> item in treatment)
+        {
+            Treatment treatment1 = new Treatment()
+            {
+                Name = item[0].Name,
+                InitialDate = item[0].InitialDate,
+                FinalDate = item[0].FinalDate,
+            };
+
+            list.Add(treatment1);
+        }
+
+        return list;
     }
 
     public async Task<bool> UpdateTreatment(Treatment treatment)
     {
-       var parms = new DynamicParameters();
-        parms.Add("TreatmentId", treatment.TreatmentId);
-        parms.Add("TreatmentName", treatment.Name);
-        parms.Add("TratmentInitialDate", treatment.InitialDate);
-        parms.Add("TreatmentFinalDate", treatment.FinalDate);
+        try
+        {
+            var parms = new DynamicParameters();
+            parms.Add("TreatmentId", treatment.TreatmentId);
+            parms.Add("TreatmentName", treatment.Name, DbType.String);
+            parms.Add("TratmentInitialDate", treatment.InitialDate, DbType.DateTime);
+            parms.Add("TreatmentFinalDate", treatment.FinalDate, DbType.DateTime);
 
-        var treatment = Task.FromResult(_dapperService.Update<ActionResult>("[dbo].[UpdateTreatment]", parms, commandType: CommandType.StoredProcedure));
+            var treat = _dapperService.Update<bool>("[dbo].[UpdateTreatment]", parms, commandType: CommandType.StoredProcedure);
 
-        return treatment;
+            return treat;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
     }
 
     public async Task<bool> DeleteTreatment(long id)
@@ -70,7 +85,7 @@ public class TreatmentRepository : ITreatmentRepository
         var parms = new DynamicParameters();
         parms.Add("TreatmentId", id);
        
-        var treatment = Task.FromResult(_dapperService.Delete<ActionResult>("[dbo].[DeleteTreatment]", parms, commandType: CommandType.StoredProcedure));
+        var treatment = _dapperService.Delete<bool>("[dbo].[DeleteTreatment]", parms, commandType: CommandType.StoredProcedure);
 
         return treatment;
     }

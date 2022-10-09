@@ -1,5 +1,4 @@
-﻿using MeufarmaceuticoApi.Contracts.Data;
-using MeufarmaceuticoApi.Domain.Common;
+﻿using MeufarmaceuticoApi.Domain.Common;
 
 namespace MeufarmaceuticoApi.Repositories;
 
@@ -9,7 +8,7 @@ public interface ITreatmentRepository
 
     public Task<Treatment>GetTreatmentById(long id);
 
-    public Task<Enumerable<Treatment>> GetTreatmentList();
+    public List<Treatment> GetTreatmentList();
 
     public Task<bool> UpdateTreatment(Treatment treatment);
 
