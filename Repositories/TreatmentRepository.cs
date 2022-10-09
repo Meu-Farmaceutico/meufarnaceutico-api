@@ -19,12 +19,11 @@ public class TreatmentRepository : ITreatmentRepository
     public async Task<bool> CreateTreatment(Treatment treatment)
     {
         var parms = new DynamicParameters();
-        parms.Add("TreatmentId", treatment.TreatmentId);
         parms.Add("TreatmentName", treatment.Name, DbType.String);
         parms.Add("TratmentInitialDate", treatment.InitialDate, DbType.DateTime);
         parms.Add("TreatmentFinalDate", treatment.FinalDate, DbType.DateTime);
 
-        var treat = _dapperService.Insert<bool>("[dbo].[InsertCreatment]", parms, commandType: CommandType.StoredProcedure);
+        var treat = _dapperService.Insert<bool>("[dbo].[InsertTreatment]", parms, commandType: CommandType.StoredProcedure);
 
         return treat;
     }

@@ -51,7 +51,6 @@ namespace MeufarmaceuticoApi.Repositories
                     tran.Rollback();
                     throw ex;
                 }
-
             }
             catch (Exception)
             {

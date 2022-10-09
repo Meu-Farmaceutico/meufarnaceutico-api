@@ -1,34 +1,36 @@
-﻿// using MeufarmaceuticoApi.Contracts.Requests;
-// using MeufarmaceuticoApi.Contracts.Responses;
-// using Microsoft.AspNetCore.Mvc;
-// using FirebaseAdmin;
-// using FirebaseAdmin.Messaging;
-// using Google.Apis.Auth.OAuth2;
-// using MeufarmaceuticoApi.Repositories;
-// using System;
-// using System.IO;
-// using System.Threading.Tasks;
+﻿using MeufarmaceuticoApi.Repositories;
+using Microsoft.AspNetCore.Mvc;
 
-// namespace MeufarmaceuticoApi.Controllers;
+namespace MeufarmaceuticoApi.Controllers;
 
-// [ApiController]
-// [Route("{controller}/{id}")]
-// public class UserController : ControllerBase
-// {
-//     public UserController()
-//     {
-//     }
+[ApiController]
+[Route("api/v1/[controller]")]
+public class UserController : ControllerBase
+{
+    private readonly IUserRepository _UserRepository;
 
-//     [HttpGet("GetUserById")]
-//     public ActionResult GetUserById()
-//     {
-//         try
-//         {
-//             return Ok();  
-//         }
-//         catch(Exception ex)
-//         {
-//             return BadRequest(ex.Message);
-//         }
-//     }
-// }
+    public UserController(IUserRepository userRepository)
+    {
+        _UserRepository = userRepository;   
+    }
+
+    [HttpGet]
+    [ProducesResponseType(204)]
+    [ProducesResponseType(400)]
+    public ActionResult GetUserById(long Id)
+    {
+        try
+        {
+            if (Id == null)
+                return BadRequest($"Necessário um {Id}");
+
+            var user = _UserRepository.GetUserById(Id);
+
+            return Ok(new {user = user});
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+}

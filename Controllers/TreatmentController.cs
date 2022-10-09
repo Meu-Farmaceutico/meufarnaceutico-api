@@ -2,6 +2,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using MeufarmaceuticoApi.Repositories;
 using MeufarmaceuticoApi.Domain.Common;
+using System.Text.Json;
 
 namespace MeufarmaceuticoApi.Controllers;
 
@@ -16,20 +17,6 @@ public class TreatmentController : ControllerBase
         _TreatmentRepository = treatmentRepository;
     }
 
-
-    [HttpGet]
-    [ProducesResponseType(200, Type = typeof(IEnumerable<Treatment>))]
-    public ActionResult getALL(){
-
-        // var produtos = _mapper.Map<ICollection<ProdutoDto>>(_produtosRepository.getALL());
-
-        if (!ModelState.IsValid)
-            return BadRequest(ModelState);
-
-        return Ok(new Treatment());
-    }
-
-
     [HttpPost]
     [ProducesResponseType(204)]
     [ProducesResponseType(400)]
@@ -37,14 +24,98 @@ public class TreatmentController : ControllerBase
     {
         try
         {
-            if(treatment is null)
-               return BadRequest("Não existe nenhum tratamento");
+            if (treatment is null)
+                return BadRequest("Não existe nenhum tratamento");
 
             var treat = _TreatmentRepository.CreateTreatment(treatment);
 
-            return Ok(treat);          
+            var result = JsonSerializer.Serialize(treat);
+
+            return Ok( new { treatment = result });
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
+    [HttpGet("{id}")]
+    [ProducesResponseType(204)]
+    [ProducesResponseType(400)]
+    public ActionResult GetTreatmentById(long id)
+    {
+        try
+        {
+            var result = _TreatmentRepository.GetTreatmentById(id);
+
+            var resultJson = JsonSerializer.Serialize(result);
+
+            return Ok(new { treatment = resultJson });
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
+    [HttpGet]
+    [ProducesResponseType(204)]
+    [ProducesResponseType(400)]
+    public ActionResult GetTreatmentList()
+    {
+        try
+        {
+            var treatment = _TreatmentRepository.GetTreatmentList();
+
+            var resultJson = JsonSerializer.Serialize(treatment);
+
+            return Ok(new { treatment = resultJson });
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
+    [HttpPut]
+    [ProducesResponseType(204)]
+    [ProducesResponseType(400)]
+    public ActionResult UpdateTreatment(Treatment treatment, long Id)
+    {
+        try
+        {
+            if (treatment.TreatmentId != Id)
+                return BadRequest("Ids diferentes!");
+
+            var treatmentResult = _TreatmentRepository.UpdateTreatment(treatment);
+
+            var resultJson = JsonSerializer.Serialize(treatmentResult);
+
+            return Ok(new { treatment = resultJson });
         }
         catch(Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
+    [HttpDelete]
+    [ProducesResponseType(204)]
+    [ProducesResponseType(400)]
+    public ActionResult DeleteTreatment(long Id)
+    {
+        try
+        {
+            if (Id == null)
+                return BadRequest("Necessita de um Id!");
+
+            var treatment = _TreatmentRepository.DeleteTreatment(Id);
+
+            var resultJson = JsonSerializer.Serialize(treatment);
+
+            return Ok(new { treatment = resultJson });
+        }
+        catch(Exception ex) 
         {
             return BadRequest(ex.Message);
         }
