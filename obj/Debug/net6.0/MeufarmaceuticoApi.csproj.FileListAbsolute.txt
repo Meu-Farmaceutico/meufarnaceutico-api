@@ -182,19 +182,11 @@ C:/Users/Usuario Lenovo/Documents/meufarnaceutico-api/obj/Debug/net6.0/ref/Meufa
 /app/meufarnaceutico-api/bin/Debug/net6.0/Dapper.dll
 /app/meufarnaceutico-api/bin/Debug/net6.0/FastEndpoints.dll
 /app/meufarnaceutico-api/bin/Debug/net6.0/FastEndpoints.Swagger.dll
-/app/meufarnaceutico-api/bin/Debug/net6.0/FirebaseAdmin.dll
 /app/meufarnaceutico-api/bin/Debug/net6.0/FluentValidation.dll
-/app/meufarnaceutico-api/bin/Debug/net6.0/Google.Api.Gax.dll
-/app/meufarnaceutico-api/bin/Debug/net6.0/Google.Api.Gax.Rest.dll
-/app/meufarnaceutico-api/bin/Debug/net6.0/Google.Apis.dll
-/app/meufarnaceutico-api/bin/Debug/net6.0/Google.Apis.Auth.PlatformServices.dll
-/app/meufarnaceutico-api/bin/Debug/net6.0/Google.Apis.Auth.dll
-/app/meufarnaceutico-api/bin/Debug/net6.0/Google.Apis.Core.dll
 /app/meufarnaceutico-api/bin/Debug/net6.0/Humanizer.dll
 /app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
 /app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 /app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
-/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
 /app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
 /app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
 /app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.CodeAnalysis.Razor.dll
@@ -266,3 +258,5 @@ C:/Users/Usuario Lenovo/Documents/meufarnaceutico-api/obj/Debug/net6.0/ref/Meufa
 /app/meufarnaceutico-api/obj/Debug/net6.0/MeufarmaceuticoApi.pdb
 /app/meufarnaceutico-api/obj/Debug/net6.0/MeufarmaceuticoApi.genruntimeconfig.cache
 /app/meufarnaceutico-api/obj/Debug/net6.0/ref/MeufarmaceuticoApi.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/AutoMapper.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

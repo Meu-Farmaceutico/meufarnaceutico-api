@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "SistemaPedidos": {
+    "MeufarmaceuticoApi": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

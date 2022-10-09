@@ -8,6 +8,9 @@ var config = builder.Configuration;
 builder.Services.AddAWSLambdaHosting(LambdaEventSource.HttpApi);
 
 builder.Services.AddControllers();
+// builder.Services.AddControllers().AddJsonOptions(x =>
+//                 x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddScoped<IMedicationRepository, MedicationRepository>();
 builder.Services.AddScoped<ITreatmentRepository, TreatmentRepository>();
@@ -22,5 +25,7 @@ var app = builder.Build();
 
 app.UseOpenApi();
 app.UseSwaggerUi3(s => s.ConfigureDefaults());
+
+app.MapControllers();
 
 app.Run();

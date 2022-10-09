@@ -10,10 +10,11 @@
         "dependencies": {
           "AWSSDK.DynamoDBv2": "3.7.3.29",
           "Amazon.Lambda.AspNetCoreServer.Hosting": "1.2.0",
+          "AutoMapper": "12.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "Dapper": "2.0.123",
           "FastEndpoints": "4.1.0-beta8",
           "FastEndpoints.Swagger": "4.1.0-beta8",
-          "FirebaseAdmin": "2.3.0",
           "Microsoft.AspNetCore.Mvc": "2.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.Design": "6.0.9",
@@ -117,6 +118,29 @@
           }
         }
       },
+      "AutoMapper/12.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
+          }
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
+          }
+        }
+      },
       "AWSSDK.Core/3.7.10.14": {
         "runtime": {
           "lib/netcoreapp3.1/AWSSDK.Core.dll": {
@@ -167,86 +191,11 @@
           }
         }
       },
-      "FirebaseAdmin/2.3.0": {
-        "dependencies": {
-          "Google.Api.Gax.Rest": "3.2.0",
-          "Google.Apis.Auth": "1.49.0",
-          "System.Collections.Immutable": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FirebaseAdmin.dll": {
-            "assemblyVersion": "2.3.0.0",
-            "fileVersion": "2.3.0.0"
-          }
-        }
-      },
       "FluentValidation/10.4.0": {
         "runtime": {
           "lib/net6.0/FluentValidation.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "10.4.0.0"
-          }
-        }
-      },
-      "Google.Api.Gax/3.2.0": {
-        "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Api.Gax.dll": {
-            "assemblyVersion": "3.2.0.0",
-            "fileVersion": "3.2.0.0"
-          }
-        }
-      },
-      "Google.Api.Gax.Rest/3.2.0": {
-        "dependencies": {
-          "Google.Api.Gax": "3.2.0",
-          "Google.Apis.Auth": "1.49.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Api.Gax.Rest.dll": {
-            "assemblyVersion": "3.2.0.0",
-            "fileVersion": "3.2.0.0"
-          }
-        }
-      },
-      "Google.Apis/1.49.0": {
-        "dependencies": {
-          "Google.Apis.Core": "1.49.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.dll": {
-            "assemblyVersion": "1.49.0.0",
-            "fileVersion": "1.49.0.0"
-          }
-        }
-      },
-      "Google.Apis.Auth/1.49.0": {
-        "dependencies": {
-          "Google.Apis": "1.49.0",
-          "Google.Apis.Core": "1.49.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {
-            "assemblyVersion": "1.49.0.0",
-            "fileVersion": "1.49.0.0"
-          },
-          "lib/netstandard2.0/Google.Apis.Auth.dll": {
-            "assemblyVersion": "1.49.0.0",
-            "fileVersion": "1.49.0.0"
-          }
-        }
-      },
-      "Google.Apis.Core/1.49.0": {
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Core.dll": {
-            "assemblyVersion": "1.49.0.0",
-            "fileVersion": "1.49.0.0"
           }
         }
       },
@@ -366,8 +315,8 @@
       },
       "Microsoft.AspNetCore.JsonPatch/2.2.0": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "Newtonsoft.Json": "12.0.3"
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll": {
@@ -554,14 +503,6 @@
           "System.Text.Encodings.Web": "4.5.0"
         }
       },
-      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
-        "runtime": {
-          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "4.700.19.46214"
-          }
-        }
-      },
       "Microsoft.CodeAnalysis.Analyzers/1.1.0": {},
       "Microsoft.CodeAnalysis.Common/2.8.0": {
         "dependencies": {
@@ -636,7 +577,7 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {},
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Data.SqlClient/2.1.4": {
         "dependencies": {
           "Microsoft.Data.SqlClient.SNI.runtime": "2.1.1",
@@ -816,7 +757,7 @@
       "Microsoft.Extensions.DependencyModel/2.1.0": {
         "dependencies": {
           "Microsoft.DotNet.PlatformAbstractions": "2.1.0",
-          "Newtonsoft.Json": "12.0.3",
+          "Newtonsoft.Json": "11.0.2",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Dynamic.Runtime": "4.3.0",
           "System.Linq": "4.3.0"
@@ -943,7 +884,7 @@
       },
       "Microsoft.IdentityModel.Tokens/6.8.0": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.CSharp": "4.7.0",
           "Microsoft.IdentityModel.Logging": "6.8.0",
           "System.Security.Cryptography.Cng": "4.5.0"
         },
@@ -993,7 +934,7 @@
       },
       "Namotion.Reflection/2.0.10": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
+          "Microsoft.CSharp": "4.7.0"
         },
         "runtime": {
           "lib/netstandard2.0/Namotion.Reflection.dll": {
@@ -1050,18 +991,18 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/12.0.3": {
+      "Newtonsoft.Json/11.0.2": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.3.23909"
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
           }
         }
       },
       "Newtonsoft.Json.Bson/1.0.1": {
         "dependencies": {
           "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "12.0.3"
+          "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {
@@ -1073,7 +1014,7 @@
       "NJsonSchema/10.6.10": {
         "dependencies": {
           "Namotion.Reflection": "2.0.10",
-          "Newtonsoft.Json": "12.0.3"
+          "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/NJsonSchema.dll": {
@@ -1084,7 +1025,7 @@
       },
       "NJsonSchema.Yaml/10.6.10": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.CSharp": "4.7.0",
           "NJsonSchema": "10.6.10",
           "YamlDotNet": "11.2.1"
         },
@@ -1123,7 +1064,7 @@
       "NSwag.Core/13.15.10": {
         "dependencies": {
           "NJsonSchema": "10.6.10",
-          "Newtonsoft.Json": "12.0.3"
+          "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/NSwag.Core.dll": {
@@ -1149,7 +1090,7 @@
         "dependencies": {
           "NJsonSchema": "10.6.10",
           "NSwag.Core": "13.15.10",
-          "Newtonsoft.Json": "12.0.3"
+          "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/NSwag.Generation.dll": {
@@ -2163,6 +2104,20 @@
       "path": "amazon.lambda.serialization.systemtextjson/2.2.0",
       "hashPath": "amazon.lambda.serialization.systemtextjson.2.2.0.nupkg.sha512"
     },
+    "AutoMapper/12.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0Rmg0zI5AFu1O/y//o9VGyhxKjhggWpk9mOA1tp0DEVx40c61bs+lnQv+0jUq8XbniF7FKgIVvI1perqiMtLrA==",
+      "path": "automapper/12.0.0",
+      "hashPath": "automapper.12.0.0.nupkg.sha512"
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XCJ4E3oKrbRl1qY9Mr+7uyC0xZj1+bqQjmQRWTiTKiVuuXTny+7YFWHi20tPjwkMukLbicN6yGlDy5PZ4wyi1w==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/12.0.0",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512"
+    },
     "AWSSDK.Core/3.7.10.14": {
       "type": "package",
       "serviceable": true,
@@ -2198,54 +2153,12 @@
       "path": "fastendpoints.swagger/4.1.0-beta8",
       "hashPath": "fastendpoints.swagger.4.1.0-beta8.nupkg.sha512"
     },
-    "FirebaseAdmin/2.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ror9V68bFWdr3VXoCPQrAAJ1ZA8dyLzIHJvy53BmoD83Ze9VuWC9hPBicPqqOANP3VTMWnylC7xci59UEMuU4A==",
-      "path": "firebaseadmin/2.3.0",
-      "hashPath": "firebaseadmin.2.3.0.nupkg.sha512"
-    },
     "FluentValidation/10.4.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-rVI1b5L3pq3layrRKIo3N7AT3PWey8ocPZhf6zeHYf6LBBvnP1KzW3bm7KmeazOWW8m1KXMD+shfviIcKSgQ0g==",
       "path": "fluentvalidation/10.4.0",
       "hashPath": "fluentvalidation.10.4.0.nupkg.sha512"
-    },
-    "Google.Api.Gax/3.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-0OjahFAHTOoprSgvJiQ6/fIQLrUYU4QIFgkuJ51/lcmhZbuXxB3ycPk3JTVEvx6A5yQBL14wgmHgwXLcEsnu3Q==",
-      "path": "google.api.gax/3.2.0",
-      "hashPath": "google.api.gax.3.2.0.nupkg.sha512"
-    },
-    "Google.Api.Gax.Rest/3.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-YY4mD0nGxTx1uez7Perm+zAd3FH50dd3+7HTYsRFCywDEtj3RkrMjcAmw6mNpKkw2sRICu7aYNy1mgMjd3nVbw==",
-      "path": "google.api.gax.rest/3.2.0",
-      "hashPath": "google.api.gax.rest.3.2.0.nupkg.sha512"
-    },
-    "Google.Apis/1.49.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-fmXQQTxZFOBlnvokvdQMzq0Lt+g2QzpZ4H6U8lMMFHgAR8ZqxQnPN5yHDpoHf7a++hJHb5W3pALxauGsq+afKQ==",
-      "path": "google.apis/1.49.0",
-      "hashPath": "google.apis.1.49.0.nupkg.sha512"
-    },
-    "Google.Apis.Auth/1.49.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-3V9ohvixQtjaEvk7T9Ac7E/KvwEPa7eL4aMNreJDI0CEPzCdQdk2zCvaJPRrNIjhe+UuBeOeom1oAOMFB74JHg==",
-      "path": "google.apis.auth/1.49.0",
-      "hashPath": "google.apis.auth.1.49.0.nupkg.sha512"
-    },
-    "Google.Apis.Core/1.49.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-9DgGdtyzgrCfHWwc/HiDXDbykNMeKQozbEHYEUEcezRuH+YR3fvq7YGVBDmUM8g6qEL3kDk6h5EU4h0IJwue1w==",
-      "path": "google.apis.core/1.49.0",
-      "hashPath": "google.apis.core.1.49.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -2541,13 +2454,6 @@
       "path": "microsoft.aspnetcore.webutilities/2.2.0",
       "hashPath": "microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
-      "path": "microsoft.bcl.asyncinterfaces/1.0.0",
-      "hashPath": "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512"
-    },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -2576,12 +2482,12 @@
       "path": "microsoft.codeanalysis.razor/2.2.0",
       "hashPath": "microsoft.codeanalysis.razor.2.2.0.nupkg.sha512"
     },
-    "Microsoft.CSharp/4.5.0": {
+    "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
-      "path": "microsoft.csharp/4.5.0",
-      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.Data.SqlClient/2.1.4": {
       "type": "package",
@@ -2891,12 +2797,12 @@
       "path": "netstandard.library/1.6.1",
       "hashPath": "netstandard.library.1.6.1.nupkg.sha512"
     },
-    "Newtonsoft.Json/12.0.3": {
+    "Newtonsoft.Json/11.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
-      "path": "newtonsoft.json/12.0.3",
-      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
     "Newtonsoft.Json.Bson/1.0.1": {
       "type": "package",
