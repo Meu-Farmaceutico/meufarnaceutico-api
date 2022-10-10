@@ -1,5 +1,4 @@
-﻿using System;
-
+using System;
 public class DataContext
 {
     public class DataContext : DbContext

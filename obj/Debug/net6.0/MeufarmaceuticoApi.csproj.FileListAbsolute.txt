@@ -1,0 +1,256 @@
+/app/Customers.Api/obj/Debug/net6.0/MeufarmaceuticoApi.csproj.AssemblyReference.cache
+/app/Customers.Api/obj/Debug/net6.0/MeufarmaceuticoApi.GeneratedMSBuildEditorConfig.editorconfig
+/app/Customers.Api/obj/Debug/net6.0/MeufarmaceuticoApi.AssemblyInfoInputs.cache
+/app/Customers.Api/obj/Debug/net6.0/MeufarmaceuticoApi.AssemblyInfo.cs
+/app/Customers.Api/obj/Debug/net6.0/MeufarmaceuticoApi.csproj.CoreCompileInputs.cache
+/app/Customers.Api/obj/Debug/net6.0/MeufarmaceuticoApi.MvcApplicationPartsAssemblyInfo.cs
+/app/Customers.Api/obj/Debug/net6.0/MeufarmaceuticoApi.MvcApplicationPartsAssemblyInfo.cache
+/app/Customers.Api/bin/Debug/net6.0/appsettings.Development.json
+/app/Customers.Api/bin/Debug/net6.0/appsettings.json
+/app/Customers.Api/bin/Debug/net6.0/aws-lambda-tools-defaults.json
+/app/Customers.Api/bin/Debug/net6.0/key.json
+/app/Customers.Api/bin/Debug/net6.0/MeufarmaceuticoApi
+/app/Customers.Api/bin/Debug/net6.0/MeufarmaceuticoApi.deps.json
+/app/Customers.Api/bin/Debug/net6.0/MeufarmaceuticoApi.runtimeconfig.json
+/app/Customers.Api/bin/Debug/net6.0/MeufarmaceuticoApi.dll
+/app/Customers.Api/bin/Debug/net6.0/MeufarmaceuticoApi.pdb
+/app/Customers.Api/bin/Debug/net6.0/Amazon.Lambda.APIGatewayEvents.dll
+/app/Customers.Api/bin/Debug/net6.0/Amazon.Lambda.ApplicationLoadBalancerEvents.dll
+/app/Customers.Api/bin/Debug/net6.0/Amazon.Lambda.AspNetCoreServer.dll
+/app/Customers.Api/bin/Debug/net6.0/Amazon.Lambda.AspNetCoreServer.Hosting.dll
+/app/Customers.Api/bin/Debug/net6.0/Amazon.Lambda.Core.dll
+/app/Customers.Api/bin/Debug/net6.0/Amazon.Lambda.Logging.AspNetCore.dll
+/app/Customers.Api/bin/Debug/net6.0/Amazon.Lambda.RuntimeSupport.dll
+/app/Customers.Api/bin/Debug/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll
+/app/Customers.Api/bin/Debug/net6.0/AWSSDK.Core.dll
+/app/Customers.Api/bin/Debug/net6.0/AWSSDK.DynamoDBv2.dll
+/app/Customers.Api/bin/Debug/net6.0/FastEndpoints.dll
+/app/Customers.Api/bin/Debug/net6.0/FastEndpoints.Swagger.dll
+/app/Customers.Api/bin/Debug/net6.0/FirebaseAdmin.dll
+/app/Customers.Api/bin/Debug/net6.0/FluentValidation.dll
+/app/Customers.Api/bin/Debug/net6.0/Google.Api.Gax.dll
+/app/Customers.Api/bin/Debug/net6.0/Google.Api.Gax.Rest.dll
+/app/Customers.Api/bin/Debug/net6.0/Google.Apis.dll
+/app/Customers.Api/bin/Debug/net6.0/Google.Apis.Auth.PlatformServices.dll
+/app/Customers.Api/bin/Debug/net6.0/Google.Apis.Auth.dll
+/app/Customers.Api/bin/Debug/net6.0/Google.Apis.Core.dll
+/app/Customers.Api/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/app/Customers.Api/bin/Debug/net6.0/Namotion.Reflection.dll
+/app/Customers.Api/bin/Debug/net6.0/Newtonsoft.Json.dll
+/app/Customers.Api/bin/Debug/net6.0/NJsonSchema.dll
+/app/Customers.Api/bin/Debug/net6.0/NJsonSchema.Yaml.dll
+/app/Customers.Api/bin/Debug/net6.0/NSwag.Annotations.dll
+/app/Customers.Api/bin/Debug/net6.0/NSwag.AspNetCore.dll
+/app/Customers.Api/bin/Debug/net6.0/NSwag.Core.dll
+/app/Customers.Api/bin/Debug/net6.0/NSwag.Core.Yaml.dll
+/app/Customers.Api/bin/Debug/net6.0/NSwag.Generation.dll
+/app/Customers.Api/bin/Debug/net6.0/NSwag.Generation.AspNetCore.dll
+/app/Customers.Api/bin/Debug/net6.0/ValueOf.dll
+/app/Customers.Api/bin/Debug/net6.0/YamlDotNet.dll
+/app/Customers.Api/obj/Debug/net6.0/staticwebassets.build.json
+/app/Customers.Api/obj/Debug/net6.0/staticwebassets.development.json
+/app/Customers.Api/obj/Debug/net6.0/scopedcss/bundle/MeufarmaceuticoApi.styles.css
+/app/Customers.Api/obj/Debug/net6.0/MeufarmaceuticoApi.csproj.CopyComplete
+/app/Customers.Api/obj/Debug/net6.0/MeufarmaceuticoApi.dll
+/app/Customers.Api/obj/Debug/net6.0/refint/MeufarmaceuticoApi.dll
+/app/Customers.Api/obj/Debug/net6.0/MeufarmaceuticoApi.pdb
+/app/Customers.Api/obj/Debug/net6.0/MeufarmaceuticoApi.genruntimeconfig.cache
+/app/Customers.Api/obj/Debug/net6.0/ref/MeufarmaceuticoApi.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/appsettings.Development.json
+/app/meufarnaceutico-api/bin/Debug/net6.0/appsettings.json
+/app/meufarnaceutico-api/bin/Debug/net6.0/aws-lambda-tools-defaults.json
+/app/meufarnaceutico-api/bin/Debug/net6.0/MeufarmaceuticoApi
+/app/meufarnaceutico-api/bin/Debug/net6.0/MeufarmaceuticoApi.deps.json
+/app/meufarnaceutico-api/bin/Debug/net6.0/MeufarmaceuticoApi.runtimeconfig.json
+/app/meufarnaceutico-api/bin/Debug/net6.0/MeufarmaceuticoApi.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/MeufarmaceuticoApi.pdb
+/app/meufarnaceutico-api/bin/Debug/net6.0/Amazon.Lambda.APIGatewayEvents.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Amazon.Lambda.ApplicationLoadBalancerEvents.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Amazon.Lambda.AspNetCoreServer.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Amazon.Lambda.AspNetCoreServer.Hosting.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Amazon.Lambda.Core.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Amazon.Lambda.Logging.AspNetCore.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Amazon.Lambda.RuntimeSupport.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/AWSSDK.Core.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/AWSSDK.DynamoDBv2.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Dapper.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/FastEndpoints.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/FastEndpoints.Swagger.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/FluentValidation.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Humanizer.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.CodeAnalysis.Razor.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.DotNet.PlatformAbstractions.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Namotion.Reflection.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Newtonsoft.Json.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/NJsonSchema.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/NJsonSchema.Yaml.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/NSwag.Annotations.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/NSwag.AspNetCore.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/NSwag.Core.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/NSwag.Core.Yaml.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/NSwag.Generation.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/NSwag.Generation.AspNetCore.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/System.Data.SqlClient.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/System.Drawing.Common.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/System.Runtime.Caching.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/System.Security.Permissions.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/System.Windows.Extensions.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/ValueOf.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/YamlDotNet.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/app/meufarnaceutico-api/obj/Debug/net6.0/MeufarmaceuticoApi.csproj.AssemblyReference.cache
+/app/meufarnaceutico-api/obj/Debug/net6.0/MeufarmaceuticoApi.GeneratedMSBuildEditorConfig.editorconfig
+/app/meufarnaceutico-api/obj/Debug/net6.0/MeufarmaceuticoApi.AssemblyInfoInputs.cache
+/app/meufarnaceutico-api/obj/Debug/net6.0/MeufarmaceuticoApi.AssemblyInfo.cs
+/app/meufarnaceutico-api/obj/Debug/net6.0/MeufarmaceuticoApi.csproj.CoreCompileInputs.cache
+/app/meufarnaceutico-api/obj/Debug/net6.0/MeufarmaceuticoApi.MvcApplicationPartsAssemblyInfo.cs
+/app/meufarnaceutico-api/obj/Debug/net6.0/MeufarmaceuticoApi.MvcApplicationPartsAssemblyInfo.cache
+/app/meufarnaceutico-api/obj/Debug/net6.0/MeufarmaceuticoApi.RazorAssemblyInfo.cache
+/app/meufarnaceutico-api/obj/Debug/net6.0/MeufarmaceuticoApi.RazorAssemblyInfo.cs
+/app/meufarnaceutico-api/obj/Debug/net6.0/MeufarmaceuticoApi.csproj.CopyComplete
+/app/meufarnaceutico-api/obj/Debug/net6.0/MeufarmaceuticoApi.dll
+/app/meufarnaceutico-api/obj/Debug/net6.0/refint/MeufarmaceuticoApi.dll
+/app/meufarnaceutico-api/obj/Debug/net6.0/MeufarmaceuticoApi.pdb
+/app/meufarnaceutico-api/obj/Debug/net6.0/MeufarmaceuticoApi.genruntimeconfig.cache
+/app/meufarnaceutico-api/obj/Debug/net6.0/ref/MeufarmaceuticoApi.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/AutoMapper.dll
+/app/meufarnaceutico-api/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\appsettings.json
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\aws-lambda-tools-defaults.json
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\MeufarmaceuticoApi.exe
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\MeufarmaceuticoApi.deps.json
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\MeufarmaceuticoApi.runtimeconfig.json
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\MeufarmaceuticoApi.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\MeufarmaceuticoApi.pdb
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Amazon.Lambda.APIGatewayEvents.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Amazon.Lambda.ApplicationLoadBalancerEvents.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Amazon.Lambda.AspNetCoreServer.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Amazon.Lambda.AspNetCoreServer.Hosting.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Amazon.Lambda.Core.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Amazon.Lambda.Logging.AspNetCore.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Amazon.Lambda.RuntimeSupport.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\AWSSDK.DynamoDBv2.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Dapper.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\FastEndpoints.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\FastEndpoints.Swagger.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Namotion.Reflection.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\NJsonSchema.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\NJsonSchema.Yaml.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\NSwag.Annotations.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\NSwag.AspNetCore.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\NSwag.Core.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\NSwag.Core.Yaml.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\NSwag.Generation.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\NSwag.Generation.AspNetCore.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\ValueOf.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\YamlDotNet.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.csproj.AssemblyReference.cache
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.AssemblyInfoInputs.cache
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.AssemblyInfo.cs
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.RazorAssemblyInfo.cache
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.RazorAssemblyInfo.cs
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.csproj.CopyComplete
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\refint\MeufarmaceuticoApi.dll
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.pdb
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\MeufarmaceuticoApi.genruntimeconfig.cache
+C:\Users\Usuario Lenovo\Documents\meufarnaceutico-api\obj\Debug\net6.0\ref\MeufarmaceuticoApi.dll

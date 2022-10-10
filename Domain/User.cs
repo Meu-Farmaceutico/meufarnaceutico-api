@@ -1,4 +1,4 @@
-﻿using Customers.Api.Domain.Common;
+using Customers.Api.Domain.Common;
 
 namespace Customers.Api.Domain;
 

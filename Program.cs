@@ -1,41 +1,31 @@
-using Amazon;
-using Amazon.DynamoDBv2;
-using Customers.Api.Contracts.Responses;
-using Customers.Api.Repositories;
-using Customers.Api.Services;
-using Customers.Api.Validation;
-using FastEndpoints;
+using MeufarmaceuticoApi.Repositories;
 using FastEndpoints.Swagger;
+using MeufarmaceuticoApi.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
-
 builder.Services.AddAWSLambdaHosting(LambdaEventSource.HttpApi);
 
-builder.Services.AddFastEndpoints();
+builder.Services.AddControllers();
+// builder.Services.AddControllers().AddJsonOptions(x =>
+//                 x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddScoped<IMedicationRepository, MedicationRepository>();
+builder.Services.AddScoped<ITreatmentRepository, TreatmentRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IDapperRepository, DapperRepository>();
+builder.Services.AddScoped<DataContext>();
 builder.Services.AddSwaggerDoc();
 
-builder.Services.AddSingleton<IAmazonDynamoDB>(_ => new AmazonDynamoDBClient(RegionEndpoint.EUWest2));
-builder.Services.AddSingleton<ICustomerRepository>(provider =>
-    new CustomerRepository(provider.GetRequiredService<IAmazonDynamoDB>(),
-        config.GetValue<string>("Database:TableName")));
-builder.Services.AddSingleton<ICustomerService, CustomerService>();
+builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer(config.GetConnectionString("ServerConnection")));
 
 var app = builder.Build();
 
-app.UseMiddleware<ValidationExceptionMiddleware>();
-app.UseFastEndpoints(x =>
-{
-    x.ErrorResponseBuilder = (failures, _) =>
-    {
-        return new ValidationFailureResponse
-        {
-            Errors = failures.Select(y => y.ErrorMessage).ToList()
-        };
-    };
-});
-
 app.UseOpenApi();
 app.UseSwaggerUi3(s => s.ConfigureDefaults());
+
+app.MapControllers();
 
 app.Run();
