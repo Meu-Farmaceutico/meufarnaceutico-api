@@ -75,19 +75,11 @@
 /app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/Dapper.dll
 /app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/FastEndpoints.dll
 /app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/FastEndpoints.Swagger.dll
-/app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/FirebaseAdmin.dll
 /app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/FluentValidation.dll
-/app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/Google.Api.Gax.dll
-/app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/Google.Api.Gax.Rest.dll
-/app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/Google.Apis.dll
-/app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/Google.Apis.Auth.PlatformServices.dll
-/app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/Google.Apis.Auth.dll
-/app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/Google.Apis.Core.dll
 /app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/Humanizer.dll
 /app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/Microsoft.AspNetCore.JsonPatch.dll
 /app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 /app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/Microsoft.AspNetCore.Razor.Language.dll
-/app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/Microsoft.Bcl.AsyncInterfaces.dll
 /app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/Microsoft.CodeAnalysis.dll
 /app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/Microsoft.CodeAnalysis.CSharp.dll
 /app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/Microsoft.CodeAnalysis.Razor.dll
@@ -143,3 +135,5 @@
 /app/meufarnaceutico-api/obj/Release/net6.0/linux-x64/MeufarmaceuticoApi.pdb
 /app/meufarnaceutico-api/obj/Release/net6.0/linux-x64/MeufarmaceuticoApi.genruntimeconfig.cache
 /app/meufarnaceutico-api/obj/Release/net6.0/linux-x64/ref/MeufarmaceuticoApi.dll
+/app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/AutoMapper.dll
+/app/meufarnaceutico-api/bin/Release/net6.0/linux-x64/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
