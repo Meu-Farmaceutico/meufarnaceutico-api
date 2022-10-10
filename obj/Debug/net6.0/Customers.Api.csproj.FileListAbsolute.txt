@@ -1,0 +1,7 @@
+C:\Users\Usuario Lenovo\Source\Repos\meufarnaceutico-api2\obj\Debug\net6.0\Customers.Api.csproj.AssemblyReference.cache
+C:\Users\Usuario Lenovo\Source\Repos\meufarnaceutico-api2\obj\Debug\net6.0\Customers.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Lenovo\Source\Repos\meufarnaceutico-api2\obj\Debug\net6.0\Customers.Api.AssemblyInfoInputs.cache
+C:\Users\Usuario Lenovo\Source\Repos\meufarnaceutico-api2\obj\Debug\net6.0\Customers.Api.AssemblyInfo.cs
+C:\Users\Usuario Lenovo\Source\Repos\meufarnaceutico-api2\obj\Debug\net6.0\Customers.Api.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Lenovo\Source\Repos\meufarnaceutico-api2\obj\Debug\net6.0\Customers.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Usuario Lenovo\Source\Repos\meufarnaceutico-api2\obj\Debug\net6.0\Customers.Api.MvcApplicationPartsAssemblyInfo.cache

@@ -1,16 +1,9 @@
-using Microsoft.EntityFrameworkCore;
-using MeufarmaceuticoApi.Domain.Common;
-using MeufarmaceuticoApi.Domain;
-
-namespace MeufarmaceuticoApi.Data
+using System;
+public class DataContext
 {
     public class DataContext : DbContext
     {
-        DbSet<User> Users { get; set; }
-
-        DbSet<Medication> Medications { get; set; }
-
-        DbSet<Treatment> Treatments { get; set; }
+        public DbSet<Person> Persons { get; set; }
 
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
